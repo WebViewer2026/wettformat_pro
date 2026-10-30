@@ -1,323 +1,361 @@
-<!-- Google Font Inter & Oswald -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
-
-<!-- FontAwesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-<!-- Tailwind CSS CDN -->
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    darkMode: 'class',
-    theme: {
-      extend: {
-        colors: {
-          brand: {
-            black: '#0a0a0a',
-            card: '#141414',
-            cardHover: '#1f1f1f',
-            border: '#2c2c2c',
-            red: '#dc2626',
-            redHover: '#b91c1c',
-            accent: '#e5e7eb',
-            gold: '#fbbf24'
+<!DOCTYPE html>
+<html lang="de" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wettformat.pro | Beste Sportwetten Anbieter & Bonus Angebote 2026</title>
+    <meta name="description" content="Unabhängiger Sportwetten-Vergleich 2026. Die besten Wettanbieter, exklusive Wettbonusse ohne Steuer, Gratiswetten & Quotenvergleich auf Wettformat.pro.">
+    <!-- Google Font Inter & Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0a0a0a',
+                card: '#141414',
+                cardHover: '#1f1f1f',
+                border: '#2c2c2c',
+                neon: '#dc2626',     /* Pate-Rot (Crimson Red) */
+                neonHover: '#b91c1c',
+                accent: '#e5e7eb',
+                gold: '#fbbf24'
+              }
+            }
           }
-        },
-        fontFamily: {
-          sans: ['Inter', 'sans-serif'],
-          heading: ['Oswald', 'sans-serif']
         }
       }
-    }
-  }
-</script>
-<style>
-  body {
-    background-color: #0a0a0a;
-    color: #f3f4f6;
-    font-family: 'Inter', sans-serif;
-  }
-  .pate-gradient-text {
-    background: linear-gradient(135deg, #ffffff 0%, #dc2626 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .card-glow {
-    box-shadow: 0 0 25px -5px rgba(220, 38, 38, 0.15);
-  }
-  .card-glow:hover {
-    box-shadow: 0 0 35px -2px rgba(220, 38, 38, 0.3);
-  }
-</style>
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0a0a0a;
+        color: #f3f4f6;
+      }
+      .font-oswald {
+        font-family: 'Oswald', sans-serif;
+      }
+      .glow-effect {
+        box-shadow: 0 0 25px -5px rgba(220, 38, 38, 0.3);
+      }
+      .text-glow {
+        text-shadow: 0 0 12px rgba(220, 38, 38, 0.5);
+      }
+    </style>
+</head>
+<body class="bg-brand-black text-gray-100 min-h-screen flex flex-col justify-between selection:bg-brand-neon selection:text-white">
 
-
-<!-- Top Bar Notice -->
-<div class="bg-black border-b border-brand-border py-2 text-xs text-gray-400">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <div class="flex items-center space-x-2">
-            <span class="bg-brand-red text-white text-[10px] font-bold px-1.5 py-0.5 rounded">18+</span>
-            <span>Glücksspiel kann süchtig machen. Bitte spiele mit Verantwortung. Hilfe unter <a href="https://www.buwei.de" target="_blank" rel="nofollow" class="underline hover:text-white">buwei.de</a>.</span>
-        </div>
-        <div class="hidden md:flex items-center space-x-4 text-xs">
-            <span><i class="fa-solid fa-shield-halved text-brand-red mr-1"></i> Lizenzierte Anbieter</span>
-            <span><i class="fa-solid fa-check text-brand-red mr-1"></i> Stand: Oktober 2026</span>
+    <!-- Top Notice Bar -->
+    <div class="bg-black border-b border-brand-border py-2 text-xs text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="bg-brand-neon text-white font-bold px-1.5 py-0.5 rounded text-[10px]">18+</span>
+                <span>Glücksspiel kann süchtig machen. Hilfe unter <a href="https://www.buwei.de" target="_blank" class="underline hover:text-white">buwei.de</a>.</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <span><i class="fa-solid fa-shield-halved text-brand-neon mr-1"></i> Lizenzierte Anbieter</span>
+                <span><i class="fa-solid fa-check text-brand-neon mr-1"></i> Stand: Oktober 2026</span>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Navigation Header -->
-<header class="sticky top-0 z-50 bg-brand-black/95 backdrop-blur border-b border-brand-border">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <!-- Logo -->
-        <a href="#" class="flex items-center space-x-2">
-            <span class="font-heading text-3xl font-bold tracking-wider text-white uppercase">
-                WET TFORMAT<span class="text-brand-red">.PRO</span>
-            </span>
-        </a>
-
-        <!-- Nav Links -->
-        <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium">
-            <a href="#anbieter" class="text-white hover:text-brand-red transition-colors flex items-center gap-2">
-                <i class="fa-solid fa-trophy text-brand-red"></i> Wettanbieter
+    <!-- Header / Nav -->
+    <header class="sticky top-0 z-50 bg-brand-black/95 backdrop-blur border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-2">
+                <span class="font-oswald text-3xl tracking-wider font-bold text-white uppercase">
+                    WETTFORMAT<span class="text-brand-neon">.PRO</span>
+                </span>
             </a>
-            <a href="#bonus" class="text-gray-300 hover:text-brand-red transition-colors">Sportwetten Bonus</a>
-            <a href="#vorteile" class="text-gray-300 hover:text-brand-red transition-colors">Warum Wir</a>
-            <a href="#faq" class="text-gray-300 hover:text-brand-red transition-colors">Ratgeber & FAQ</a>
-        </nav>
 
-        <!-- CTA Header Button -->
-        <div>
-            <a href="#anbieter" class="bg-brand-red hover:bg-brand-redHover text-white font-semibold text-sm px-5 py-2.5 rounded-md transition-all shadow-lg shadow-brand-red/20 flex items-center gap-2">
-                Bester Bonus 2026
-            </a>
+            <!-- Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#anbieter" class="hover:text-brand-neon transition-colors"><i class="fa-solid fa-trophy text-brand-neon mr-1.5"></i> Wettanbieter</a>
+                <a href="#bonus" class="hover:text-brand-neon transition-colors">Sportwetten Bonus</a>
+                <a href="#warum" class="hover:text-brand-neon transition-colors">Warum Wir</a>
+                <a href="#faq" class="hover:text-brand-neon transition-colors">Ratgeber & FAQ</a>
+            </nav>
+
+            <!-- CTA Header -->
+            <div>
+                <a href="https://stake.com/?c=wettformat" target="_blank" class="bg-brand-neon hover:bg-brand-neonHover text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all shadow-lg hover:shadow-red-950/50 flex items-center space-x-2">
+                    <span>Bester Bonus 2026</span>
+                </a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- Hero Section -->
-<section class="relative py-16 md:py-24 overflow-hidden border-b border-brand-border/50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-card border border-brand-border text-xs text-gray-300 mb-6">
-            <span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
-            <span>Aktualisiert für Oktober 2026 • Unabhängig & Geprüft</span>
-        </div>
-
-        <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white tracking-tight uppercase max-w-4xl mx-auto leading-tight mb-6">
-            Die besten <span class="pate-gradient-text">Sportwetten Anbieter</span> & Bonus Angebote
-        </h1>
-
-        <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Unabhängige Tests, exklusive Wettbonus-Deals & die höchsten Quoten im direkten Vergleich.
-        </p>
-
-        <!-- Quick Filter Badges -->
-        <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
-            <button class="bg-brand-red text-white font-medium text-xs md:text-sm px-4 py-2 rounded-lg flex items-center gap-2 border border-brand-red shadow-md shadow-brand-red/20">
-                <i class="fa-solid fa-list-ul"></i> Alle Anbieter
-            </button>
-            <button class="bg-brand-card hover:bg-brand-cardHover text-gray-300 hover:text-white font-medium text-xs md:text-sm px-4 py-2 rounded-lg flex items-center gap-2 border border-brand-border transition-all">
-                <i class="fa-solid fa-percent text-brand-red"></i> Ohne Wettsteuer
-            </button>
-            <button class="bg-brand-card hover:bg-brand-cardHover text-gray-300 hover:text-white font-medium text-xs md:text-sm px-4 py-2 rounded-lg flex items-center gap-2 border border-brand-border transition-all">
-                <i class="fa-solid fa-gift text-brand-red"></i> Gratiswetten
-            </button>
-            <button class="bg-brand-card hover:bg-brand-cardHover text-gray-300 hover:text-white font-medium text-xs md:text-sm px-4 py-2 rounded-lg flex items-center gap-2 border border-brand-border transition-all">
-                <i class="fa-brands fa-bitcoin text-brand-red"></i> Crypto
-            </button>
-            <button class="bg-brand-card hover:bg-brand-cardHover text-gray-300 hover:text-white font-medium text-xs md:text-sm px-4 py-2 rounded-lg flex items-center gap-2 border border-brand-border transition-all">
-                <i class="fa-solid fa-bolt text-brand-red"></i> Schnelle Auszahlung
-            </button>
-        </div>
-    </div>
-</section>
-
-<!-- Main Bookie List Section -->
-<section id="anbieter" class="py-16 bg-brand-black">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-
-        <!-- BOOKIE CARD 1 (Testsieger) -->
-        <div class="relative bg-brand-card border-2 border-brand-red rounded-xl p-6 md:p-8 card-glow transition-all">
-            <div class="absolute -top-3 left-6 bg-brand-red text-white text-xs font-extrabold px-3 py-1 rounded uppercase tracking-wider flex items-center gap-1 shadow-md">
-                <i class="fa-solid fa-crown text-yellow-300"></i> TESTSIEGER 2026
+    <!-- Hero Section -->
+    <section class="relative py-16 md:py-24 overflow-hidden border-b border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            
+            <div class="inline-flex items-center space-x-2 bg-brand-card border border-brand-border rounded-full px-4 py-1.5 mb-6 text-xs text-gray-300">
+                <span class="w-2 h-2 rounded-full bg-brand-neon animate-pulse"></span>
+                <span>Aktualisiert für Oktober 2026 • Unabhängig & Geprüft</span>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center mt-2">
-                <!-- Rank & Logo -->
-                <div class="lg:col-span-3 flex items-center gap-4">
-                    <span class="font-heading text-3xl font-bold text-gray-500">#1</span>
-                    <div class="bg-black border border-brand-border p-4 rounded-lg flex-1 flex items-center justify-center h-20">
-                        <!-- Logo Placeholder -->
-                        <span class="font-heading text-2xl font-extrabold text-white tracking-widest uppercase">TIPICO</span>
+            <h1 class="font-oswald text-4xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tight text-white mb-6">
+                Die besten <span class="text-brand-neon text-glow">Sportwetten</span><br/>Anbieter & Bonus Angebote
+            </h1>
+
+            <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 mb-10 font-light">
+                Unabhängige Tests, exklusive Wettbonus-Deals &amp; die höchsten Quoten im direkten Vergleich.
+            </p>
+
+            <!-- Filter Badges -->
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-brand-neon text-white font-semibold text-xs px-4 py-2 rounded-md border border-brand-neon shadow-md cursor-pointer">
+                    <i class="fa-solid fa-list-ul mr-1.5"></i> Alle Anbieter
+                </span>
+                <span class="bg-brand-card hover:bg-brand-cardHover border border-brand-border text-gray-300 text-xs px-4 py-2 rounded-md transition-colors cursor-pointer">
+                    <i class="fa-solid fa-percent text-brand-neon mr-1.5"></i> Ohne Wettsteuer
+                </span>
+                <span class="bg-brand-card hover:bg-brand-cardHover border border-brand-border text-gray-300 text-xs px-4 py-2 rounded-md transition-colors cursor-pointer">
+                    <i class="fa-solid fa-gift text-brand-neon mr-1.5"></i> Freespins &amp; Gratiswetten
+                </span>
+                <span class="bg-brand-card hover:bg-brand-cardHover border border-brand-border text-gray-300 text-xs px-4 py-2 rounded-md transition-colors cursor-pointer">
+                    <i class="fa-brands fa-bitcoin text-brand-neon mr-1.5"></i> Crypto
+                </span>
+                <span class="bg-brand-card hover:bg-brand-cardHover border border-brand-border text-gray-300 text-xs px-4 py-2 rounded-md transition-colors cursor-pointer">
+                    <i class="fa-solid fa-bolt text-brand-neon mr-1.5"></i> Schnelle Auszahlung
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main List Section -->
+    <main id="anbieter" class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="space-y-6">
+
+            <!-- RANK #1: STAKE -->
+            <div class="relative bg-brand-card border-2 border-brand-neon rounded-xl p-5 md:p-6 glow-effect transition-all">
+                <div class="absolute -top-3 left-6 bg-brand-neon text-white text-xs font-extrabold uppercase px-3 py-1 rounded shadow-md tracking-wider">
+                    <i class="fa-solid fa-crown mr-1"></i> TESTSIEGER 2026
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center mt-2">
+                    <!-- Rank & Logo -->
+                    <div class="lg:col-span-3 flex items-center space-x-4">
+                        <span class="font-oswald text-3xl font-bold text-brand-neon">#1</span>
+                        <div class="w-full bg-black border border-brand-border p-4 rounded-lg flex items-center justify-center min-h-[70px]">
+                            <span class="font-oswald text-2xl font-bold tracking-widest text-white">STAKE</span>
+                        </div>
+                        <div class="lg:hidden">
+                            <h3 class="font-bold text-lg text-white">Stake</h3>
+                            <div class="text-brand-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <span class="text-xs text-gray-400">5.0/5</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Bonus Info -->
+                    <div class="lg:col-span-4 bg-black/40 border border-brand-border/60 p-4 rounded-lg">
+                        <div class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Exklusiver Status</div>
+                        <div class="text-xl font-bold text-white mt-1">Endlich in Europa erreichbar</div>
+                        <div class="text-xs text-brand-neon mt-1"><i class="fa-solid fa-fire mr-1"></i> Top Quoten &amp; Crypto Payouts</div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="lg:col-span-2 text-xs space-y-1.5 text-gray-300">
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Exklusive VIP Aktionen</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Blitz-Auszahlung</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Keine Wettsteuer</div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="lg:col-span-3 flex flex-col items-center justify-center space-y-2">
+                        <div class="w-full text-center bg-black/60 border border-brand-border py-1.5 px-3 rounded text-xs text-gray-400">
+                            Bonuscode: <span class="text-white font-semibold">Kein Code nötig</span>
+                        </div>
+                        <a href="https://stake.com/?c=wettformat" target="_blank" class="w-full bg-brand-neon hover:bg-brand-neonHover text-white font-bold py-3 px-6 rounded-lg text-center transition-all shadow-md uppercase tracking-wide text-sm flex items-center justify-center space-x-2">
+                            <span>BONUS SICHERN</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-
-                <!-- Bonus Info -->
-                <div class="lg:col-span-3 text-center lg:text-left border-y lg:border-y-0 lg:border-x border-brand-border/60 py-4 lg:py-0 lg:px-6">
-                    <span class="text-xs text-gray-400 uppercase font-semibold">Willkommensbonus</span>
-                    <div class="text-2xl font-extrabold text-white mt-1">100% bis zu 100€</div>
-                    <div class="text-xs text-brand-red font-medium mt-1">+ 10€ Gratiswette ohne Einzahlung</div>
-                </div>
-
-                <!-- Highlights -->
-                <div class="lg:col-span-3 space-y-1.5 text-xs text-gray-300">
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>5% Wettsteuer entfällt komplett</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Blitz-Auszahlung via PayPal</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Top Quoten für Deutsche Bundesliga</span></div>
-                </div>
-
-                <!-- Bonus Code & CTA -->
-                <div class="lg:col-span-3 flex flex-col justify-center space-y-3">
-                    <div class="bg-black/60 border border-brand-border rounded p-2 text-center text-xs">
-                        <span class="text-gray-400">Bonuscode: </span>
-                        <span class="font-mono font-bold text-white uppercase tracking-wider">WF100</span>
-                    </div>
-                    <a href="#" target="_blank" rel="nofollow" class="bg-brand-red hover:bg-brand-redHover text-white font-extrabold text-center py-3.5 px-6 rounded-lg shadow-lg shadow-brand-red/20 transition-all uppercase tracking-wider flex items-center justify-center gap-2">
-                        <span>BONUS SICHERN</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                    <span class="text-[10px] text-gray-500 text-center">18+ | AGB gelten | Lizenz LUGAS</span>
-                </div>
             </div>
-        </div>
 
-        <!-- BOOKIE CARD 2 -->
-        <div class="relative bg-brand-card border border-brand-border rounded-xl p-6 md:p-8 hover:border-gray-600 transition-all">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-                <!-- Rank & Logo -->
-                <div class="lg:col-span-3 flex items-center gap-4">
-                    <span class="font-heading text-3xl font-bold text-gray-500">#2</span>
-                    <div class="bg-black border border-brand-border p-4 rounded-lg flex-1 flex items-center justify-center h-20">
-                        <span class="font-heading text-2xl font-extrabold text-white tracking-widest uppercase">BET365</span>
+            <!-- RANK #2: VOX -->
+            <div class="relative bg-brand-card border border-brand-border hover:border-brand-border/80 rounded-xl p-5 md:p-6 transition-all">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                    <!-- Rank & Logo -->
+                    <div class="lg:col-span-3 flex items-center space-x-4">
+                        <span class="font-oswald text-3xl font-bold text-gray-500">#2</span>
+                        <div class="w-full bg-black border border-brand-border p-4 rounded-lg flex items-center justify-center min-h-[70px]">
+                            <span class="font-oswald text-2xl font-bold tracking-widest text-white">VOX</span>
+                        </div>
+                        <div class="lg:hidden">
+                            <h3 class="font-bold text-lg text-white">VOX</h3>
+                            <div class="text-brand-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span class="text-xs text-gray-400">4.9/5</span></div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Bonus Info -->
-                <div class="lg:col-span-3 text-center lg:text-left border-y lg:border-y-0 lg:border-x border-brand-border/60 py-4 lg:py-0 lg:px-6">
-                    <span class="text-xs text-gray-400 uppercase font-semibold">Wett-Credits</span>
-                    <div class="text-2xl font-extrabold text-white mt-1">Bis zu 100€ in Credits</div>
-                    <div class="text-xs text-gray-400 font-medium mt-1">Für neue Kunden</div>
-                </div>
-
-                <!-- Highlights -->
-                <div class="lg:col-span-3 space-y-1.5 text-xs text-gray-300">
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Größtes Live-Stream Angebot weltweit</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Hervorragende Live-Wetten</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Sehr schnelle Vorzeitige Auszahlung</span></div>
-                </div>
-
-                <!-- Bonus Code & CTA -->
-                <div class="lg:col-span-3 flex flex-col justify-center space-y-3">
-                    <div class="bg-black/60 border border-brand-border rounded p-2 text-center text-xs">
-                        <span class="text-gray-400">Bonuscode: </span>
-                        <span class="font-mono font-bold text-white uppercase tracking-wider">PRO365</span>
+                    <!-- Bonus Info -->
+                    <div class="lg:col-span-4 bg-black/40 border border-brand-border/60 p-4 rounded-lg">
+                        <div class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Willkommenspaket</div>
+                        <div class="text-xl font-bold text-white mt-1">Bis zu 3000€ + 600 Freespins</div>
+                        <div class="text-xs text-gray-400 mt-1">Gigantisches Gesamtpaket für Neukunden</div>
                     </div>
-                    <a href="#" target="_blank" rel="nofollow" class="bg-brand-red hover:bg-brand-redHover text-white font-extrabold text-center py-3.5 px-6 rounded-lg shadow-lg shadow-brand-red/20 transition-all uppercase tracking-wider flex items-center justify-center gap-2">
-                        <span>BONUS SICHERN</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                    <span class="text-[10px] text-gray-500 text-center">18+ | AGB gelten | Lizenz LUGAS</span>
-                </div>
-            </div>
-        </div>
 
-        <!-- BOOKIE CARD 3 -->
-        <div class="relative bg-brand-card border border-brand-border rounded-xl p-6 md:p-8 hover:border-gray-600 transition-all">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-                <!-- Rank & Logo -->
-                <div class="lg:col-span-3 flex items-center gap-4">
-                    <span class="font-heading text-3xl font-bold text-gray-500">#3</span>
-                    <div class="bg-black border border-brand-border p-4 rounded-lg flex-1 flex items-center justify-center h-20">
-                        <span class="font-heading text-2xl font-extrabold text-white tracking-widest uppercase">BET-AT-HOME</span>
+                    <!-- Features -->
+                    <div class="lg:col-span-2 text-xs space-y-1.5 text-gray-300">
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Riesige Spielauswahl</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Fast-Payout System</div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="lg:col-span-3 flex flex-col items-center justify-center space-y-2">
+                        <div class="w-full text-center bg-black/60 border border-brand-border py-1.5 px-3 rounded text-xs text-gray-400">
+                            Bonuscode: <span class="text-white font-semibold">Kein Code nötig</span>
+                        </div>
+                        <a href="https://winahoraly.com/l/6ae4e2c7c059de4a9f0e2012" target="_blank" class="w-full bg-brand-neon hover:bg-brand-neonHover text-white font-bold py-3 px-6 rounded-lg text-center transition-all shadow-md uppercase tracking-wide text-sm flex items-center justify-center space-x-2">
+                            <span>BONUS SICHERN</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Bonus Info -->
-                <div class="lg:col-span-3 text-center lg:text-left border-y lg:border-y-0 lg:border-x border-brand-border/60 py-4 lg:py-0 lg:px-6">
-                    <span class="text-xs text-gray-400 uppercase font-semibold">Willkommensbonus</span>
-                    <div class="text-2xl font-extrabold text-white mt-1">100% bis zu 100€</div>
-                    <div class="text-xs text-gray-400 font-medium mt-1">Exklusives Angebot</div>
-                </div>
-
-                <!-- Highlights -->
-                <div class="lg:col-span-3 space-y-1.5 text-xs text-gray-300">
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Traditionsanbieter seit über 20 Jahren</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Riesiges Wettangebot für Top-Ligen</span></div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-red"></i> <span>Tägliche Quoten-Boosts</span></div>
-                </div>
-
-                <!-- Bonus Code & CTA -->
-                <div class="lg:col-span-3 flex flex-col justify-center space-y-3">
-                    <div class="bg-black/60 border border-brand-border rounded p-2 text-center text-xs">
-                        <span class="text-gray-400">Bonuscode: </span>
-                        <span class="font-mono font-bold text-white uppercase tracking-wider">FIRST</span>
+            <!-- RANK #3: TWINDOR -->
+            <div class="relative bg-brand-card border border-brand-border hover:border-brand-border/80 rounded-xl p-5 md:p-6 transition-all">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                    <!-- Rank & Logo -->
+                    <div class="lg:col-span-3 flex items-center space-x-4">
+                        <span class="font-oswald text-3xl font-bold text-gray-500">#3</span>
+                        <div class="w-full bg-black border border-brand-border p-4 rounded-lg flex items-center justify-center min-h-[70px]">
+                            <span class="font-oswald text-2xl font-bold tracking-widest text-white">TWINDOR</span>
+                        </div>
+                        <div class="lg:hidden">
+                            <h3 class="font-bold text-lg text-white">Twindor</h3>
+                            <div class="text-brand-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> <span class="text-xs text-gray-400">4.8/5</span></div>
+                        </div>
                     </div>
-                    <a href="#" target="_blank" rel="nofollow" class="bg-brand-red hover:bg-brand-redHover text-white font-extrabold text-center py-3.5 px-6 rounded-lg shadow-lg shadow-brand-red/20 transition-all uppercase tracking-wider flex items-center justify-center gap-2">
-                        <span>BONUS SICHERN</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                    <span class="text-[10px] text-gray-500 text-center">18+ | AGB gelten | Lizenz LUGAS</span>
+
+                    <!-- Bonus Info -->
+                    <div class="lg:col-span-4 bg-black/40 border border-brand-border/60 p-4 rounded-lg">
+                        <div class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Mega-Bonus</div>
+                        <div class="text-xl font-bold text-white mt-1">Bis zu 3500€ + 500 Freespins</div>
+                        <div class="text-xs text-gray-400 mt-1">Höchstes Bonusguthaben im Vergleich</div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="lg:col-span-2 text-xs space-y-1.5 text-gray-300">
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Top Live-Betting</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> High-Roller geeignet</div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="lg:col-span-3 flex flex-col items-center justify-center space-y-2">
+                        <div class="w-full text-center bg-black/60 border border-brand-border py-1.5 px-3 rounded text-xs text-gray-400">
+                            Bonuscode: <span class="text-white font-semibold">Kein Code nötig</span>
+                        </div>
+                        <a href="https://winahoraly.com/l/6ae4e321776b3f366a004122" target="_blank" class="w-full bg-brand-neon hover:bg-brand-neonHover text-white font-bold py-3 px-6 rounded-lg text-center transition-all shadow-md uppercase tracking-wide text-sm flex items-center justify-center space-x-2">
+                            <span>BONUS SICHERN</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
-</section>
+            <!-- RANK #4: TIPICO -->
+            <div class="relative bg-brand-card border border-brand-border hover:border-brand-border/80 rounded-xl p-5 md:p-6 transition-all">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                    <!-- Rank & Logo -->
+                    <div class="lg:col-span-3 flex items-center space-x-4">
+                        <span class="font-oswald text-3xl font-bold text-gray-500">#4</span>
+                        <div class="w-full bg-black border border-brand-border p-4 rounded-lg flex items-center justify-center min-h-[70px]">
+                            <span class="font-oswald text-2xl font-bold tracking-widest text-red-600">TIPICO</span>
+                        </div>
+                        <div class="lg:hidden">
+                            <h3 class="font-bold text-lg text-white">Tipico</h3>
+                            <div class="text-brand-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> <span class="text-xs text-gray-400">4.7/5</span></div>
+                        </div>
+                    </div>
 
-<!-- Features Section -->
-<section id="vorteile" class="py-16 bg-black border-t border-brand-border">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white uppercase tracking-wider">
-                Warum <span class="text-brand-red">Wettformat.pro</span> die beste Wahl ist
-            </h2>
-            <p class="text-gray-400 text-sm mt-2">Wir testen objektiv, transparent und nach strengen Qualitätskriterien.</p>
-        </div>
+                    <!-- Bonus Info -->
+                    <div class="lg:col-span-4 bg-black/40 border border-brand-border/60 p-4 rounded-lg">
+                        <div class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Klassiker-Bonus</div>
+                        <div class="text-xl font-bold text-white mt-1">100% bis zu 100€</div>
+                        <div class="text-xs text-gray-400 mt-1">Der bekannteste Buchmacher Deutschlands</div>
+                    </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
-                <div class="w-12 h-12 rounded-lg bg-brand-red/10 border border-brand-red/30 flex items-center justify-center text-brand-red text-xl mb-4">
-                    <i class="fa-solid fa-shield-halved"></i>
+                    <!-- Features -->
+                    <div class="lg:col-span-2 text-xs space-y-1.5 text-gray-300">
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> 0% Wettsteuer</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> PayPal Auszahlung</div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="lg:col-span-3 flex flex-col items-center justify-center space-y-2">
+                        <div class="w-full text-center bg-black/60 border border-brand-border py-1.5 px-3 rounded text-xs text-gray-400">
+                            Bonuscode: <span class="text-brand-neon font-bold">TopScore</span>
+                        </div>
+                        <a href="https://tipico.com" target="_blank" class="w-full bg-brand-neon hover:bg-brand-neonHover text-white font-bold py-3 px-6 rounded-lg text-center transition-all shadow-md uppercase tracking-wide text-sm flex items-center justify-center space-x-2">
+                            <span>BONUS SICHERN</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <h3 class="font-heading text-xl font-bold text-white uppercase mb-2">100% Geprüft & Lizenzierte Anbieter</h3>
-                <p class="text-sm text-gray-400 leading-relaxed">Alle gelisteten Wettanbieter besitzen eine offizielle Lizenz und garantieren maximale Sicherheit bei Ein- und Auszahlungen.</p>
             </div>
 
-            <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
-                <div class="w-12 h-12 rounded-lg bg-brand-red/10 border border-brand-red/30 flex items-center justify-center text-brand-red text-xl mb-4">
-                    <i class="fa-solid fa-percent"></i>
+            <!-- RANK #5: NEO.BET -->
+            <div class="relative bg-brand-card border border-brand-border hover:border-brand-border/80 rounded-xl p-5 md:p-6 transition-all">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                    <!-- Rank & Logo -->
+                    <div class="lg:col-span-3 flex items-center space-x-4">
+                        <span class="font-oswald text-3xl font-bold text-gray-500">#5</span>
+                        <div class="w-full bg-black border border-brand-border p-4 rounded-lg flex items-center justify-center min-h-[70px]">
+                            <span class="font-oswald text-2xl font-bold tracking-widest text-white">NEO<span class="text-brand-neon">.BET</span></span>
+                        </div>
+                        <div class="lg:hidden">
+                            <h3 class="font-bold text-lg text-white">NEO.bet</h3>
+                            <div class="text-brand-gold text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> <span class="text-xs text-gray-400">4.6/5</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Bonus Info -->
+                    <div class="lg:col-span-4 bg-black/40 border border-brand-border/60 p-4 rounded-lg">
+                        <div class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Bonus Wahlweise</div>
+                        <div class="text-xl font-bold text-white mt-1">200% bis 50€ ODER 100% bis 100€</div>
+                        <div class="text-xs text-gray-400 mt-1">Ideal für Starter oder Profis</div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="lg:col-span-2 text-xs space-y-1.5 text-gray-300">
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Cashout Control</div>
+                        <div class="flex items-center"><i class="fa-solid fa-check text-brand-neon mr-2"></i> Innovative App</div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="lg:col-span-3 flex flex-col items-center justify-center space-y-2">
+                        <div class="w-full text-center bg-black/60 border border-brand-border py-1.5 px-3 rounded text-xs text-gray-400">
+                            Bonuscode: <span class="text-brand-neon font-bold">TopScoreNeo</span>
+                        </div>
+                        <a href="https://neo.bet" target="_blank" class="w-full bg-brand-neon hover:bg-brand-neonHover text-white font-bold py-3 px-6 rounded-lg text-center transition-all shadow-md uppercase tracking-wide text-sm flex items-center justify-center space-x-2">
+                            <span>BONUS SICHERN</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <h3 class="font-heading text-xl font-bold text-white uppercase mb-2">Exklusive Bonus-Deals</h3>
-                <p class="text-sm text-gray-400 leading-relaxed">Durch unsere Partnerschaften bieten wir dir höhere Bonusangebote und exklusive Bonuscodes, die du sonst nirgendwo findest.</p>
             </div>
 
-            <div class="bg-brand-card p-6 rounded-xl border border-brand-border">
-                <div class="w-12 h-12 rounded-lg bg-brand-red/10 border border-brand-red/30 flex items-center justify-center text-brand-red text-xl mb-4">
-                    <i class="fa-solid fa-bolt"></i>
-                </div>
-                <h3 class="font-heading text-xl font-bold text-white uppercase mb-2">Schnellste Auszahlungen</h3>
-                <p class="text-sm text-gray-400 leading-relaxed">Wir testen kontinuierlich die Auszahlungsgeschwindigkeit über PayPal, Crypto, Klarna und Kreditkarte.</p>
-            </div>
         </div>
-    </div>
-</section>
+    </main>
 
-<!-- Footer -->
-<footer class="bg-brand-black border-t border-brand-border py-12 text-xs text-gray-500">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-        <div class="font-heading text-2xl font-bold tracking-wider text-white uppercase">
-            WETTFORMAT<span class="text-brand-red">.PRO</span>
+    <!-- Footer -->
+    <footer class="bg-black border-t border-brand-border py-8 text-xs text-gray-500 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
+            <p>Glücksspiel kann süchtig machen. Bitte spiele mit Verantwortung. Informationen und Hilfe unter buwei.de.</p>
+            <p>&copy; 2026 Wettformat.pro – Alle Rechte vorbehalten.</p>
         </div>
-        <p class="max-w-3xl mx-auto leading-relaxed">
-            Glücksspiel kann süchtig machen. Bitte spiele mit Verantwortung. Informationen und Hilfe unter buwei.de. Alle Angebote richten sich ausschließlich an Personen über 18 Jahren mit Wohnsitz in zugelassenen Regionen.
-        </p>
-        <div class="flex justify-center space-x-6 text-gray-400">
-            <a href="#" class="hover:text-white transition-colors">Impressum</a>
-            <a href="#" class="hover:text-white transition-colors">Datenschutz</a>
-            <a href="#" class="hover:text-white transition-colors">AGB</a>
-            <a href="#" class="hover:text-white transition-colors">Spielerschutz</a>
-        </div>
-        <p>&copy; 2026 Wettformat.pro - Alle Rechte vorbehalten.</p>
-    </div>
-</footer>
+    </footer>
+
+</body>
+</html>
